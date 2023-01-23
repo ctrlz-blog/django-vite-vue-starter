@@ -6,7 +6,7 @@ def index(request: HttpRequest) -> HttpResponse:
 
     context = {
         "django_message": "Hello from Django!",
-        "vue_message": "If you're reading this message, Vue is working.",
+        "vue_message": "This message has been passed to a Vue component from a Django view.",
         "initial_value": 1000
     }
 

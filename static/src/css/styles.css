@@ -1,11 +1,19 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 3rem 0;
     background: #fafafa;
     font-family: sans-serif;
+    text-align: center;
 }
 
 #app {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem;
     background: white;
-
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 600px;
+    min-height: 300px;
 }
