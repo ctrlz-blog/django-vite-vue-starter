@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    font-family: sans-serif;
+}
+
+#app {
+    background: white;
+
+}
