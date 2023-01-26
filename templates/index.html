@@ -1,6 +1,10 @@
 {% extends 'base.html' %}
+{% load django_vite %}
 
 {% block content %}
+
+{% vite_hmr_client %}
+{% vite_asset 'js/main.js' %}
 
 <h2>{{ django_message }}</h2>
 
