@@ -27,3 +27,14 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+6. Install Vite
+You may need to deactivate your virtual environment first.
+```
+npm install
+```
+
+7. Start the Vite server
+```
+npm run dev
+```
