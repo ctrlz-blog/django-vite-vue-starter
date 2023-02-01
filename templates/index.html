@@ -6,6 +6,9 @@
 {% vite_hmr_client %}
 {% vite_asset 'js/main.js' %}
 
+{{ vue_message|json_script:"vue-message"}}
+{{ initial_value|json_script:"initial-value"}}
+
 <h2>{{ django_message }}</h2>
 
 <p>This page has been generated from a Django template.</p>
