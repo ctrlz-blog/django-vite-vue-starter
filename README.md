@@ -36,3 +36,8 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+6. Start the vite server
+```
+npm run vite
+```
