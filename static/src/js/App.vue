@@ -5,6 +5,10 @@ import Counter from "./Counter.vue"
 <template>
     <h1>{{message}}</h1>
     <counter />
+    <button>
+        <a :href="url">Click me</a>
+    </button>
+    
 </template>
 
 <script>
@@ -13,6 +17,7 @@ export default {
   data() {
     return {
       message: JSON.parse(document.getElementById("vue-message").textContent),
+      url: JSON.parse(document.getElementById("url").textContent)
     };
   },
 };

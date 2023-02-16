@@ -9,6 +9,10 @@
 {{ vue_message|json_script:"vue-message"}}
 {{ initial_value|json_script:"initial-value"}}
 
+<script id="url">
+    "{% url 'some-page' %}"
+</script>
+
 <h2>{{ django_message }}</h2>
 
 <p>This page has been generated from a Django template.</p>

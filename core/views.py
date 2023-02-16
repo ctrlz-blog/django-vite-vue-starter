@@ -11,3 +11,7 @@ def index(request: HttpRequest) -> HttpResponse:
     }
 
     return render(request, "index.html", context)
+
+def some_page(request):
+
+    return render(request, "some_page.html")
